@@ -43,9 +43,9 @@ def full?(board)
   end
   if board_count < 9
     binding.pry
-    true 
-  else
     false
+  else
+    true
   end
   # board.all?{|token| token == "X" || token == "O"}
 end
