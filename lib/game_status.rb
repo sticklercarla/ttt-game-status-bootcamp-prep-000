@@ -35,7 +35,6 @@ def won?(board)
 end
 
 def full?(board)
-  binding.pry
   board.each do |token|
     token == "X" || token == "O" ? true : false
   end
