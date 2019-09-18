@@ -37,8 +37,8 @@ end
 def full?(board)
   binding.pry
   board.each do |token|
-    token == "X" || token == "O" ? true : FALSE
+    token == "X" || token == "O" ? true : false
   end
   
-  board.all?{|token| token == "X" || token == "O"}
+  # board.all?{|token| token == "X" || token == "O"}
 end
