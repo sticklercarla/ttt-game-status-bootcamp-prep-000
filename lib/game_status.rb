@@ -6,13 +6,6 @@ def position_taken?(board, index)
 end
 
 # Define your WIN_COMBINATIONS constant
-
-def won?(board)
-  WIN_COMBINATIONS.each do |combo|
-    binding.pry
-  
-end
-
 WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
@@ -23,3 +16,9 @@ WIN_COMBINATIONS = [
   [1,4,7],
   [2,5,8]
 ]
+
+def won?(board)
+  WIN_COMBINATIONS.each do |combo|
+    binding.pry
+  
+end
