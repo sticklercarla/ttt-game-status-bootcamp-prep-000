@@ -60,4 +60,6 @@ end
 
 def winner(board)
   binding.pry
+  index = won?(board)
+  board[index[0]]
 end
