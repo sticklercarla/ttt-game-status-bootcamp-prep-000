@@ -30,9 +30,8 @@ def won?(board)
       return combo
     elsif position_1 == "0" && position_2 == "O" && position_3 == "0"
       return combo
-    else
-      return
     end
+    return false
   end
 end
 
