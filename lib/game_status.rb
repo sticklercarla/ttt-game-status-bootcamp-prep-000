@@ -20,5 +20,5 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS.each do |combo|
     binding.pry
-  
+  end
 end
