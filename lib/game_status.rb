@@ -35,9 +35,16 @@ def won?(board)
 end
 
 def full?(board)
+  board_count = 0
   board.each do |token|
-    token == "X" || token == "O" ? true : false
+    if token == "X" || token == "O"
+      board_count += 1
+    end
   end
-  
+  if board_count < 9
+    true 
+  else
+    false
+  end
   # board.all?{|token| token == "X" || token == "O"}
 end
