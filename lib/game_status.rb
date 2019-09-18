@@ -5,8 +5,9 @@ end
 
 # Define your WIN_COMBINATIONS constant
 
-def won?
-  
+def won?(board)
+  WIN_COMBINATIONS.each do |combo|
+    
   
 end
 
