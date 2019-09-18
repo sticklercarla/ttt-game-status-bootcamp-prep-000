@@ -31,8 +31,8 @@ def won?(board)
     elsif position_1 == "0" && position_2 == "O" && position_3 == "0"
       return combo
     end
-    return false
   end
+  return false
 end
 
 def full?(board)
