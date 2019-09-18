@@ -42,7 +42,6 @@ def full?(board)
     end
   end
   if board_count < 9
-    binding.pry
     false
   else
     true
